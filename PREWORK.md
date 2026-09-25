@@ -72,7 +72,7 @@ then run this inside the Codespace:
 
 ```shell
 gh aw secrets bootstrap --engine copilot
-```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
+
 
 Store the token as the repository Actions secret `COPILOT_GITHUB_TOKEN`. This is
 an Actions secret, not a Codespaces secret.
