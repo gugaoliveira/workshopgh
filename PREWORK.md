@@ -73,7 +73,6 @@ then run this inside the Codespace:
 ```shell
 gh aw secrets bootstrap --engine copilot
 
-
 Store the token as the repository Actions secret `COPILOT_GITHUB_TOKEN`. This is
 an Actions secret, not a Codespaces secret.
 
