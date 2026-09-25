@@ -104,6 +104,18 @@ Define when to recommend each suggested-team label:
 - suggested-team/developer-experience
 - suggested-team/support-triage
 -->
+If the user opens an issue and reports a bug, ensure that enough information is present for the maintainer to act upon. At minimum, the reporter should supply OS type and version, hardware platform, browser type and version, concrete steps to reproduce the bug and the application name and version they were using. If this is a GUI application, ask them to supply screenshots of the bug if possible.
+
+if any of the information is missing, apply the  "needs-inf"
+Categorize the priority of the bug report as follows
+- priority/p0 - complete outage or unrecoverable loss
+- priority/p1 - blocking bug with no workaround
+- priority/p2 - low impact bug or major bug with workaround
+
+Suggested team routing:
+- suggested/workflows - Actions workflow failure
+- suggested/developer-experience - Need to reach out directly for more information
+- suggested/support-triage - Escalate directly to tech support
 
 ## 4. Find duplicates and related issues
 
