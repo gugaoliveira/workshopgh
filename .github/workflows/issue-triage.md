@@ -70,6 +70,22 @@ repository context. Do not invent missing details.
 Define the evidence required for a bug and for a feature or task.
 Define what the workflow should do when essential information is missing.
 -->
+safe-outputs: 
+  add-labels:
+    allowed:
+      - bug
+      - feature
+      - question
+      - needs-info
+      - duplicate
+      - priority/p0
+      - priority/p1 
+      - priority/p2 
+      - suggested-team
+      - dupplicate
+    max: 4
+add-comment:
+  max: 1
 
 If the issue is clearly spam, gibberish, or a test submission, apply `spam` or
 `invalid` when available, explain the assessment briefly, and stop.
